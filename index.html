@@ -42,7 +42,7 @@
     <meta name="author" content="Chaotically Organized AI">
     <meta name="language" content="English">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="theme-color" content="#00e676">
+    <meta name="theme-color" content="#6c63ff">
 
     <!-- Additional SEO Meta Tags -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -88,161 +88,7 @@
     <link rel="canonical" href="https://chaoticallyorganizedai.com/" />
 
     <link rel="stylesheet" href="style.css">
-
-    <style>
-        /* Urgency Banner */
-        .urgency-banner {
-            background: var(--neon-core);
-            color: #000;
-            text-align: center;
-            padding: 10px 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            position: relative;
-            z-index: 10000;
-        }
-
-        .urgency-close {
-            position: absolute;
-            right: 15px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            font-size: 1.2rem;
-            cursor: pointer;
-            color: #000;
-            padding: 0 5px;
-        }
-
-        .urgency-close:hover {
-            color: #333;
-        }
-    </style>
-
-    <!-- Organization Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "https://chaoticallyorganizedai.com/#organization",
-      "name": "Chaotically Organized AI",
-      "alternateName": ["COAI", "Chaotically Organized AI Bakersfield", "Kern County AI Automation"],
-      "url": "https://chaoticallyorganizedai.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://chaoticallyorganizedai.com/logo.png",
-        "width": 512,
-        "height": 512
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://chaoticallyorganizedai.com/og-image.jpg",
-        "width": 1200,
-        "height": 630
-      },
-      "description": "Website design, backend automation, and AI phone answering for service businesses and local brands in Bakersfield and Kern County.",
-      "slogan": "Future-Proof Your Business for AI Search",
-      "sameAs": [
-        "https://www.facebook.com/chaoticallyorganizedai",
-        "https://www.linkedin.com/company/chaoticallyorganizedai"
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+1-661-610-9198",
-          "contactType": "customer service",
-          "contactOption": ["TollFree", "HearingImpairedSupported"],
-          "areaServed": ["US", "Kern County", "Bakersfield"],
-          "availableLanguage": ["English", "Spanish"],
-          "hoursAvailable": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "08:00",
-            "closes": "18:00",
-            "timeZone": "America/Los_Angeles"
-          }
-        }
-      ],
-      "email": "chaoticallyorganizedai@gmail.com"
-    }
-    </script>
-
-    <!-- LocalBusiness Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": ["LocalBusiness", "ProfessionalService"],
-      "@id": "https://chaoticallyorganizedai.com/#localbusiness",
-      "name": "Chaotically Organized AI",
-      "image": ["https://chaoticallyorganizedai.com/logo.png", "https://chaoticallyorganizedai.com/og-image.jpg"],
-      "url": "https://chaoticallyorganizedai.com",
-      "telephone": "+1-661-610-9198",
-      "email": "chaoticallyorganizedai@gmail.com",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "1712 19th St #216",
-        "addressLocality": "Bakersfield",
-        "addressRegion": "CA",
-        "postalCode": "93301",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 35.3756,
-        "longitude": -119.0196
-      },
-      "openingHoursSpecification": [{
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "08:00",
-        "closes": "18:00",
-        "timeZone": "America/Los_Angeles"
-      }],
-      "areaServed": [
-        {"@type": "City", "name": "Bakersfield"},
-        {"@type": "City", "name": "Shafter"},
-        {"@type": "City", "name": "Delano"},
-        {"@type": "City", "name": "Wasco"},
-        {"@type": "AdministrativeArea", "name": "Kern County"}
-      ]
-    }
-    </script>
-
-    <!-- FAQ Schema with Speakable Markup for Voice Assistants -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much does AI phone answering cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AI phone answering typically costs less than a part-time receptionist. Most Bakersfield service businesses see ROI after capturing only a few additional jobs each month. We offer a free Systems and Website ROI Audit to show where your leads are leaking.",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": "#faq-answer-1"
-            }
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can AI handle emergency calls for my HVAC/plumbing business?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, our AI is trained to identify true emergencies like no heat in winter, AC out in summer, or burst pipes. It immediately routes emergencies to your on-call technician with full context. For non-emergencies, it books appointments directly into your calendar.",
-            "speakable": {
-              "@type": "SpeakableSpecification",
-              "cssSelector": "#faq-answer-2"
-            }
-          }
-        }
-      ]
-    }
-    </script>
+    <link rel="stylesheet" href="home-styles.css">
 
     <!-- Facebook Pixel -->
     <script defer>
@@ -273,7 +119,6 @@
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <style>
-        /* Hide ALL Google Translate UI Elements */
         .goog-te-banner-frame.skiptranslate,
         .goog-te-gadget-icon,
         .goog-te-gadget-simple span,
@@ -292,15 +137,38 @@
             width: 0 !important;
             overflow: hidden !important;
         }
-
-        body {
-            top: 0 !important;
-            position: relative;
-        }
-
+        body { top: 0 !important; position: relative; }
         #goog-gt-tt { display: none !important; }
         .goog-text-highlight { background: none !important; box-shadow: none !important; }
     </style>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://chaoticallyorganizedai.com/#organization",
+      "name": "Chaotically Organized AI",
+      "alternateName": ["COAI", "Chaotically Organized AI Bakersfield", "Kern County AI Automation"],
+      "url": "https://chaoticallyorganizedai.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://chaoticallyorganizedai.com/logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "description": "Website design, backend automation, and AI phone answering for service businesses and local brands in Bakersfield and Kern County.",
+      "slogan": "Your Local Tech Partner — Built for Bakersfield",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+1-661-610-9198",
+        "contactType": "customer service",
+        "areaServed": ["US", "Kern County", "Bakersfield"],
+        "availableLanguage": ["English", "Spanish"]
+      }],
+      "email": "chaoticallyorganizedai@gmail.com"
+    }
+    </script>
 </head>
 
 <body class="home-page dark-mode">
@@ -308,132 +176,384 @@
         <div class="neural-grid"></div>
     </div>
 
-    <header>
-        <div class="nav-container" style="justify-content: center;">
+    <!-- FLOATING PARTICLES -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- SOCIAL PROOF TOAST -->
+    <div class="toast-notification" id="social-proof-toast" style="display:none;">
+        <span id="toast-message"></span>
+        <button onclick="hideSocialProofToast()" style="background:none;border:none;color:#666;cursor:pointer;padding:0 0 0 10px;font-size:1rem;">✕</button>
+    </div>
+
+    <!-- ======== NAVIGATION ======== -->
+    <header id="main-header">
+        <div class="nav-container">
             <a href="index.html" class="logo">
                 <img src="logo.png" alt="Chaotically Organized AI logo" loading="lazy" width="48" height="48">
                 <span class="logo-text">CHAOTICALLY ORGANIZED AI</span>
             </a>
+
+            <nav class="nav-main" role="navigation" aria-label="Main navigation">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="services.html" id="nav-services">Services</a></li>
+                    <li><a href="portfolio.html" id="nav-portfolio">Our Work</a></li>
+                    <li><a href="pricing.html" id="nav-pricing">Pricing</a></li>
+                    <li><a href="resources.html" id="nav-resources">Resources</a></li>
+                    <li><a href="contact.html" id="nav-contact">Contact</a></li>
+                </ul>
+
+                <div class="lang-switcher">
+                    <button id="lang-toggle" class="btn-lang is-en" onclick="toggleLanguage()" aria-label="Switch language">
+                        <span class="lang-en">EN</span>
+                        <span class="lang-divider">|</span>
+                        <span class="lang-es">ES</span>
+                    </button>
+                </div>
+
+                <a href="intake.html" class="btn btn-primary header-cta" id="nav-cta">Get Free Audit</a>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
         </div>
     </header>
 
-    <!-- HERO SECTION -->
-    <section class="hero-conversion">
-        <div class="container hero-flex">
-            <div class="hero-content">
-                <p class="eyebrow">⚡ The Point of No Return</p>
-                <h1>
-                    Your Revenue Recovery<br>
-                    <span style="color: var(--crimson-core);">Audit.</span>
+    <!-- ======== HERO SECTION ======== -->
+    <section class="hero-new" id="hero">
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-orb hero-orb-3"></div>
+
+        <div class="container hero-flex-new">
+            <div class="hero-content-new reveal">
+                <div class="hero-pill">🚀 Bakersfield's #1 AI-Powered Web Studio</div>
+                <h1 class="hero-h1">
+                    We Build Websites<br>
+                    That <span class="gradient-text">Actually Work</span><br>
+                    <span class="hero-h1-sub">for You 24/7</span>
                 </h1>
-                <p class="hero-subhead">
-                    Every element on this page serves one purpose: to show you the exact cost of your hesitation. 
-                    Most businesses discover they're bleeding $8,000-$15,000 monthly.<br>
-                    In 90 seconds, you'll know your exact hemorrhage rate.
+                <p class="hero-description">
+                    Custom websites, smart automation, and AI phone systems that turn your online presence into a lead-generating machine — without the tech headache.
                 </p>
-                <div class="hero-badges">
-                    <span class="trust-badge">★ 5-Star Rated ROI</span>
-                    <span class="trust-badge">🏆 Bakersfield Local</span>
-                    <span class="trust-badge">⚡ 48-Hour Deployment</span>
+
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-num">48hr</span>
+                        <span class="stat-label">Fast Delivery</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="stat-num">60%</span>
+                        <span class="stat-label">More Bookings</span>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="stat-num">24/7</span>
+                        <span class="stat-label">AI Coverage</span>
+                    </div>
                 </div>
-                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-                    <a href="intake.html" class="btn btn-primary header-cta" tabindex="0">Face My Revenue Loss</a>
-                    <a href="tel:6616109198" class="btn btn-large"
-                        style="border-color: rgba(255,255,255,0.2); color: #fff;">📞 (661) 610-9198</a>
+
+                <div class="hero-cta-group">
+                    <a href="intake.html" class="btn-hero-primary" id="hero-cta-primary">
+                        Get My Free Website Audit
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="tel:6616109198" class="btn-hero-secondary" id="hero-cta-phone">
+                        <span class="phone-pulse"></span>
+                        📞 (661) 610-9198
+                    </a>
+                </div>
+
+                <div class="hero-trust">
+                    <span class="trust-item">✅ No contracts</span>
+                    <span class="trust-item">✅ Free consultation</span>
+                    <span class="trust-item">✅ Local Bakersfield team</span>
                 </div>
             </div>
-            <div class="hero-form" id="audit-form">
-                <h3>Revenue Recovery Audit</h3>
-                <p>The moment you see these numbers, hesitation becomes a choice.</p>
-                
-                <div style="background:rgba(255,68,68,0.05); border:1px solid rgba(255,68,68,0.2); border-radius:8px; padding:20px; margin-bottom:25px;">
-                    <p style="color:#ff4444; font-weight:bold; margin-bottom:10px;">⚠️ Cipher-Level Honesty</p>
-                    <p style="color:#fff; font-size:0.9rem; margin:0;">If your business is too disorganized for AI to save right now, we'll tell you. Fix your intake, then call us. We don't take on clients we can't transform.</p>
-                </div>
-                
-                <form id="miniForm" action="https://formspree.io/f/xvzbkovo" method="POST">
-                    <input type="hidden" name="form_type" value="homepage_mini">
-                    <input type="hidden" name="_next" value="https://chaoticallyorganizedai.com/thank-you.html">
-                    <input type="text" name="business_name" placeholder="Business Name *" required>
-                    <input type="text" name="name" placeholder="Contact Name *" required>
-                    <input type="email" name="email" placeholder="Email Address *" required>
-                    <input type="tel" name="phone" placeholder="Phone Number *" required>
-                    <button type="submit" class="pulse-btn" style="width:100%;">🔥 Show Me The Cost</button>
-                </form>
-                <div style="display:flex; gap:15px; justify-content:center; align-items:center; margin-top:15px; flex-wrap:wrap;">
-                    <span style="font-size:0.75rem; color:#666; display:flex; align-items:center; gap:4px;">🔒 SSL Secure</span>
-                    <span style="font-size:0.75rem; color:#666; display:flex; align-items:center; gap:4px;">📞 Response in 2 hrs</span>
-                    <span style="font-size:0.75rem; color:#666; display:flex; align-items:center; gap:4px;">🚫 No spam. Ever.</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- CALCULATOR SECTION -->
-    <section class="section" style="background:var(--crimson-dim);">
-        <div class="container">
-            <h2 style="text-align:center; margin-bottom:10px;">Calculate Your Revenue Leak</h2>
-            <p style="text-align:center; color:#888; margin-bottom:40px;">Interactive Loss Aversion: See exactly what you're losing every month.</p>
-
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
-                <!-- Left: Controls -->
-                <div style="background:var(--void-card); border:1px solid var(--glass-border); border-radius:12px; padding:30px;">
-                    <div style="margin-bottom:25px;">
-                        <label style="display:block; margin-bottom:8px; color:#888;">Missed Calls Per Day</label>
-                        <input type="range" id="missedCalls" min="0" max="30" value="5">
-                        <p style="text-align:right; font-size:1.2rem; color: var(--crimson-core); margin-top:5px;"><span id="missedValue">5</span> calls</p>
+            <div class="hero-visual reveal">
+                <div class="hero-card-stack">
+                    <!-- Floating Card 1: Live Booking -->
+                    <div class="float-card float-card-1">
+                        <div class="float-card-icon">📅</div>
+                        <div>
+                            <div class="float-card-title">New Booking!</div>
+                            <div class="float-card-sub">AI just booked a $2,400 HVAC job</div>
+                        </div>
+                        <div class="float-card-badge green">+$2,400</div>
                     </div>
 
-                    <div style="margin-bottom:25px;">
-                        <label style="display:block; margin-bottom:8px; color:#888;">Average Job Value ($)</label>
-                        <input type="range" id="jobValue" min="100" max="10000" value="1200" step="100">
-                        <p style="text-align:right; font-size:1.2rem; color: var(--crimson-core); margin-top:5px;">$<span id="jobValueDisplay">1,200</span></p>
-                    </div>
-
-                    <div style="margin-bottom:25px;">
-                        <label style="display:block; margin-bottom:8px; color:#888;">Closing Rate (%)</label>
-                        <input type="range" id="closeRate" min="5" max="100" value="30">
-                        <p style="text-align:right; font-size:1.2rem; color: var(--crimson-core); margin-top:5px;"><span id="closeRateValue">30</span>%</p>
-                    </div>
-
-                    <div style="background:rgba(255,68,68,0.1); border:1px solid #ff4444; border-radius:8px; padding:20px; text-align:center; margin-top:30px; position:relative; overflow:hidden;">
-                        <div class="hud-scanner"></div>
-                        <p style="color:#888; margin-bottom:5px;">Monthly Revenue Hemorrhage:</p>
-                        <p style="font-size:3rem; color:#ff0033; font-weight:900; margin:0; text-shadow: 0 0 20px var(--crimson-glow);">$<span id="revenue-leak">5,472</span></p>
-                        <p style="color:#888; font-size:0.8rem; margin-top:10px;">Based on 30.4 average days/month</p>
-                    </div>
-                </div>
-
-                <!-- Right: Visual Cues -->
-                <div>
-                    <div class="pain-graphic" style="margin-top:0; background:var(--void-card); border:1px solid var(--glass-border); padding:30px; border-radius:16px;">
-                        <h3>The Revenue Split</h3>
-                        <div class="bar-chart">
-                            <div class="bar-container">
-                                <div class="bar-label">
-                                    <span>Current Revenue (Est.)</span>
-                                    <span id="currentRevLabel" style="color:#00ffcc;">$25,000</span>
-                                </div>
-                                <div class="bar-bg">
-                                    <div class="bar-fill green" id="currentRevBar" style="width: 70%;"></div>
-                                </div>
+                    <!-- Main hero device mockup -->
+                    <div class="device-mockup">
+                        <div class="device-screen">
+                            <div class="screen-header">
+                                <span class="screen-dot dot-red"></span>
+                                <span class="screen-dot dot-yellow"></span>
+                                <span class="screen-dot dot-green"></span>
+                                <span class="screen-url">chaoticallyorganizedai.com</span>
                             </div>
-                            <div class="bar-container">
-                                <div class="bar-label">
-                                    <span>Potential (Including Leak)</span>
-                                    <span id="potentialRevLabel" style="color:var(--crimson-core);">$30,472</span>
+                            <div class="screen-content">
+                                <div class="screen-nav-bar">
+                                    <div class="screen-logo-bar"></div>
+                                    <div class="screen-nav-items">
+                                        <div class="screen-nav-item"></div>
+                                        <div class="screen-nav-item"></div>
+                                        <div class="screen-nav-item active-nav"></div>
+                                    </div>
                                 </div>
-                                <div class="bar-bg">
-                                    <div class="bar-fill green" id="greenBaseBar" style="width: 70%;"></div>
-                                    <div class="bar-fill red-overlay" id="leakRevBar" style="width: 100%;"></div>
+                                <div class="screen-hero-area">
+                                    <div class="screen-headline"></div>
+                                    <div class="screen-subline"></div>
+                                    <div class="screen-subline short"></div>
+                                    <div class="screen-btn"></div>
+                                </div>
+                                <div class="screen-cards-row">
+                                    <div class="screen-mini-card"></div>
+                                    <div class="screen-mini-card"></div>
+                                    <div class="screen-mini-card"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="heat-map-container" style="background:var(--void-card); border:1px solid var(--glass-border); padding:30px; border-radius:16px; margin-top:30px;">
-                        <h3>Your "Red Zone" Blind Spot</h3>
-                        <p style="font-size:0.85rem; margin-bottom:15px; color:#888;">65% of high-value emergency calls happen when you're off the clock.</p>
+                    <!-- Floating Card 2: Revenue -->
+                    <div class="float-card float-card-2">
+                        <div class="float-card-icon">📈</div>
+                        <div>
+                            <div class="float-card-title">Monthly Revenue</div>
+                            <div class="float-card-sub">Up 43% since going live</div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Card 3: Lead -->
+                    <div class="float-card float-card-3">
+                        <div class="float-card-icon">🤖</div>
+                        <div class="float-card-title">AI answered 12 calls today</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== TRUSTED BY LOGOS ======== -->
+    <section class="trusted-section">
+        <div class="container">
+            <p class="trusted-label">TRUSTED BY KERN COUNTY BUSINESSES</p>
+            <div class="trusted-logos">
+                <div class="trust-logo-item">🔧 HVAC Companies</div>
+                <div class="trust-logo-divider">·</div>
+                <div class="trust-logo-item">🚰 Plumbing Pros</div>
+                <div class="trust-logo-divider">·</div>
+                <div class="trust-logo-item">⚡ Electricians</div>
+                <div class="trust-logo-divider">·</div>
+                <div class="trust-logo-item">🏗️ Contractors</div>
+                <div class="trust-logo-divider">·</div>
+                <div class="trust-logo-item">🚛 Haulers</div>
+                <div class="trust-logo-divider">·</div>
+                <div class="trust-logo-item">🌿 Landscapers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== WHAT WE BUILD ======== -->
+    <section class="section services-showcase" id="services">
+        <div class="container">
+            <div class="section-eyebrow">WHAT WE DO</div>
+            <h2 class="section-title centered">Everything Your Business Needs<br><span class="gradient-text">to Dominate Online</span></h2>
+            <p class="section-subtitle centered">From your first website to a fully automated lead machine — we build it all, right here in Bakersfield.</p>
+
+            <div class="services-grid-new">
+                <!-- Service 1 -->
+                <div class="service-card-new reveal" id="svc-websites">
+                    <div class="service-card-glow glow-blue"></div>
+                    <div class="service-icon-new">💻</div>
+                    <h3 class="service-title-new">Custom Website Design</h3>
+                    <p class="service-desc-new">Beautiful, fast, mobile-first websites built to convert visitors into calls and bookings — not just look pretty.</p>
+                    <ul class="service-features">
+                        <li>✦ Mobile-optimized design</li>
+                        <li>✦ Contact forms that actually send</li>
+                        <li>✦ Google-ready SEO setup</li>
+                        <li>✦ 48-hour delivery available</li>
+                    </ul>
+                    <div class="service-price-tag">Starting at $497</div>
+                    <a href="services.html" class="service-cta-link">Learn More →</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card-new service-card-featured reveal" id="svc-ai">
+                    <div class="service-featured-badge">⭐ MOST POPULAR</div>
+                    <div class="service-card-glow glow-purple"></div>
+                    <div class="service-icon-new">🤖</div>
+                    <h3 class="service-title-new">AI Phone Answering</h3>
+                    <p class="service-desc-new">Never miss another lead. Our AI answers calls 24/7, books appointments, and sounds just like a real receptionist.</p>
+                    <ul class="service-features">
+                        <li>✦ Answers in under 1 second</li>
+                        <li>✦ Books directly to your calendar</li>
+                        <li>✦ Handles emergencies & after-hours</li>
+                        <li>✦ Bilingual (English & Spanish)</li>
+                    </ul>
+                    <div class="service-price-tag">Starting at $197/mo</div>
+                    <a href="services.html" class="service-cta-link">Learn More →</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card-new reveal" id="svc-automation">
+                    <div class="service-card-glow glow-green"></div>
+                    <div class="service-icon-new">⚙️</div>
+                    <h3 class="service-title-new">Business Automation</h3>
+                    <p class="service-desc-new">Stop losing leads in your inbox. We connect your website, CRM, and calendar so no lead ever falls through the cracks.</p>
+                    <ul class="service-features">
+                        <li>✦ Instant SMS speed-to-lead</li>
+                        <li>✦ CRM sync & follow-ups</li>
+                        <li>✦ Full-funnel tracking</li>
+                        <li>✦ Review request automation</li>
+                    </ul>
+                    <div class="service-price-tag">Custom Quotes</div>
+                    <a href="services.html" class="service-cta-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== HOW IT WORKS ======== -->
+    <section class="section process-section" id="process">
+        <div class="container">
+            <div class="section-eyebrow">OUR PROCESS</div>
+            <h2 class="section-title centered">From "I Need a Website"<br>to <span class="gradient-text">Live & Getting Leads</span></h2>
+            <p class="section-subtitle centered">We make it ridiculously simple. Here's exactly how we work together.</p>
+
+            <div class="process-steps">
+                <div class="process-step reveal">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon">☎️</div>
+                        <h3 class="step-title">Free Discovery Call</h3>
+                        <p class="step-desc">Tell us about your business, your goals, and what's not working right now. No pitch — just an honest conversation. Takes 20 minutes.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon">🎨</div>
+                        <h3 class="step-title">We Build, You Approve</h3>
+                        <p class="step-desc">Our team designs and builds your website or system. We show you everything before it goes live. You own it completely.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon">🚀</div>
+                        <h3 class="step-title">Launch & Get Leads</h3>
+                        <p class="step-desc">We go live, set up your analytics, and make sure everything is capturing leads. Then we stick around to optimize.</p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+
+                <div class="process-step reveal">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon">📈</div>
+                        <h3 class="step-title">Grow Together</h3>
+                        <p class="step-desc">As your business grows, we grow with you. Add AI calling, automations, new pages — we're your long-term tech partner.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-cta">
+                <a href="intake.html" class="btn btn-primary btn-large" id="process-cta">Start With a Free Audit</a>
+                <p class="process-cta-note">No commitment required. Response within 2 hours.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== REVENUE CALCULATOR (Softer Framing) ======== -->
+    <section class="section calculator-section" id="calculator">
+        <div class="container">
+            <div class="section-eyebrow">YOUR OPPORTUNITY</div>
+            <h2 class="section-title centered">See How Much More<br>You Could Be <span class="gradient-text">Earning</span></h2>
+            <p class="section-subtitle centered">Adjust the sliders below to see your potential monthly revenue upside with the right systems in place.</p>
+
+            <div class="calc-grid">
+                <!-- Left: Controls -->
+                <div class="calc-controls glass-card-new reveal">
+                    <div class="calc-field">
+                        <label class="calc-label">Missed Calls Per Day</label>
+                        <input type="range" id="missedCalls" min="0" max="30" value="5">
+                        <div class="calc-value-row">
+                            <span class="calc-value-label">Currently missing:</span>
+                            <span class="calc-value-num accent-blue"><span id="missedValue">5</span> calls/day</span>
+                        </div>
+                    </div>
+
+                    <div class="calc-field">
+                        <label class="calc-label">Average Job Value ($)</label>
+                        <input type="range" id="jobValue" min="100" max="10000" value="1200" step="100">
+                        <div class="calc-value-row">
+                            <span class="calc-value-label">Per job:</span>
+                            <span class="calc-value-num accent-green">$<span id="jobValueDisplay">1,200</span></span>
+                        </div>
+                    </div>
+
+                    <div class="calc-field">
+                        <label class="calc-label">Your Closing Rate (%)</label>
+                        <input type="range" id="closeRate" min="5" max="100" value="30">
+                        <div class="calc-value-row">
+                            <span class="calc-value-label">Close rate:</span>
+                            <span class="calc-value-num accent-purple"><span id="closeRateValue">30</span>%</span>
+                        </div>
+                    </div>
+
+                    <div class="calc-result-box">
+                        <div class="calc-result-label">💰 Your Monthly Opportunity</div>
+                        <div class="calc-result-amount">$<span id="revenue-leak">5,472</span></div>
+                        <div class="calc-result-sub">in recoverable revenue per month</div>
+                    </div>
+
+                    <a href="intake.html" class="btn btn-primary" style="width:100%; text-align:center; margin-top:10px; display:block;" id="calc-cta">Help Me Capture This →</a>
+                </div>
+
+                <!-- Right: What You Get -->
+                <div class="calc-right reveal">
+                    <div class="glass-card-new benefit-card">
+                        <h3 class="benefit-title">What Fixing This Looks Like</h3>
+                        <div class="benefit-items">
+                            <div class="benefit-item">
+                                <div class="benefit-check">✓</div>
+                                <div>
+                                    <div class="benefit-item-title">AI answers every call</div>
+                                    <div class="benefit-item-desc">Even at 2am during an emergency — your AI is there, ready to book the job.</div>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-check">✓</div>
+                                <div>
+                                    <div class="benefit-item-title">Instant follow-up texts</div>
+                                    <div class="benefit-item-desc">Every missed call gets an automatic text back in 60 seconds. Beat your competition every time.</div>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-check">✓</div>
+                                <div>
+                                    <div class="benefit-item-title">Bookings fly into your calendar</div>
+                                    <div class="benefit-item-desc">No phone-tag, no manual scheduling. Jobs appear in your calendar automatically.</div>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-check">✓</div>
+                                <div>
+                                    <div class="benefit-item-title">You focus on the work</div>
+                                    <div class="benefit-item-desc">Stop being the after-hours receptionist. Run your business, not your phone.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card-new heatmap-card" style="margin-top:25px;">
+                        <h3 class="benefit-title">🔴 When You're Off the Clock</h3>
+                        <p style="color:#888; font-size:0.85rem; margin-bottom:15px;">65% of high-value calls come outside business hours. Our AI covers every red-zone hour.</p>
                         <div class="heat-map">
                             <div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div>
                             <div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div>
@@ -443,285 +563,281 @@
                             <div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div><div class="heat-cell red-zone"></div>
                         </div>
                         <div class="heat-labels">
-                            <span>12 AM</span>
-                            <span>6 AM</span>
-                            <span>12 PM</span>
-                            <span>6 PM</span>
-                            <span>11 PM</span>
+                            <span>12 AM</span><span>6 AM</span><span>12 PM</span><span>6 PM</span><span>11 PM</span>
                         </div>
-                        <p style="color:var(--crimson-core); font-weight:bold; font-size:0.85rem; text-align:center; margin-top:15px; text-transform:uppercase;">Our AI owns the Red Zone.</p>
+                        <p style="color:var(--accent-purple); font-weight:700; font-size:0.85rem; text-align:center; margin-top:10px;">Our AI owns the red zone 24/7</p>
                     </div>
                 </div>
-            </div>
-
-            <div style="text-align:center; margin-top:60px;">
-                <a href="intake.html" class="btn btn-primary btn-large pulse-btn">
-                    Stop the Leak Now →
-                </a>
             </div>
         </div>
     </section>
 
-    <!-- COMPLETE SYSTEM SECTION -->
-    <section class="section">
+    <!-- ======== TESTIMONIALS ======== -->
+    <section class="section testimonials-section" id="testimonials">
         <div class="container">
-            <h2 style="text-align:center; margin-bottom:10px;">End-to-End Revenue Capture</h2>
-            <p style="text-align:center; color:#888; margin-bottom:40px;">We build the architecture that runs your
-                business while you focus on the tools.</p>
+            <div class="section-eyebrow">REAL RESULTS</div>
+            <h2 class="section-title centered">Kern County Business Owners<br><span class="gradient-text">Love Working With Us</span></h2>
 
-            <div class="service-grid">
-                <div class="service-card">
-                    <div class="service-icon">💻</div>
-                    <h3>AEO-Optimized Websites</h3>
-                    <p>Fast, GEO-optimized sites designed to turn local search traffic into high-intent leads.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Full-Funnel Tracking</h3>
-                    <p>Know exactly which ad, page, or search term generated every single dollar of revenue.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🤖</div>
-                    <h3>AI Phone Systems</h3>
-                    <p>Never miss a lead. AI books jobs, qualifies prospects, and answer questions 24/7.</p>
-                </div>
-            </div>
-
-            <!-- AUDIO PROOF SECTION -->
-            <div style="margin-top:80px;">
-                <h2 style="text-align:center; margin-bottom:10px;">Hear the Proof</h2>
-                <p style="text-align:center; color:#888; margin-bottom:40px;">Our AI doesn't sound like a robot. It sounds like your best receptionist on their best day.</p>
-                
-                <div class="audio-grid">
-                    <div class="audio-card" id="audio-emergency">
-                        <div class="hud-scanner"></div>
-                        <div class="audio-header">
-                            <span class="audio-tag">The Emergency</span>
-                            <span style="font-size:0.8rem; color:#666;">0:20</span>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal" id="test-1">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"I was missing 4-5 calls a day during summer. The AI captured 12 jobs in the first month alone. Paid for itself 3x over. You can't afford to miss calls when it's 110° in Oildale."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">DT</div>
+                        <div>
+                            <div class="testimonial-name">David T.</div>
+                            <div class="testimonial-biz">Delano HVAC Solutions</div>
                         </div>
-                        <h4 style="color:#fff; margin:5px 0;">2 AM Burst Pipe</h4>
-                        <div class="waveform-mock">
-                            <div class="waveform-bars">
-                                <!-- Generated bars -->
-                                <div class="wave-bar" style="height:40%;"></div>
-                                <div class="wave-bar" style="height:60%;"></div>
-                                <div class="wave-bar" style="height:30%;"></div>
-                                <div class="wave-bar" style="height:80%;"></div>
-                                <div class="wave-bar" style="height:45%;"></div>
-                                <div class="wave-bar" style="height:70%;"></div>
-                                <div class="wave-bar" style="height:20%;"></div>
-                                <div class="wave-bar" style="height:90%;"></div>
-                                <div class="wave-bar" style="height:55%;"></div>
-                                <div class="wave-bar" style="height:40%;"></div>
-                                <div class="wave-bar" style="height:60%;"></div>
-                                <div class="wave-bar" style="height:30%;"></div>
-                                <div class="wave-bar" style="height:80%;"></div>
-                                <div class="wave-bar" style="height:45%;"></div>
-                                <div class="wave-bar" style="height:70%;"></div>
-                            </div>
-                        </div>
-                        <div style="display:flex; align-items:center; gap:15px;">
-                            <button class="play-btn" onclick="toggleAudio('emergency')">▶</button>
-                            <span style="font-size:0.85rem; color:#888;">AI identifies emergency & routes to technician.</span>
-                        </div>
-                        <audio id="audio-file-emergency" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio> <!-- Placeholder sound -->
+                        <div class="testimonial-result-badge">+$18,400/mo</div>
                     </div>
+                </div>
 
-                    <div class="audio-card" id="audio-quote">
-                        <div class="audio-header">
-                            <span class="audio-tag">The Quote</span>
-                            <span style="font-size:0.8rem; color:#666;">0:20</span>
+                <div class="testimonial-card reveal" id="test-2">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Best investment I've made. I'm actually able to eat dinner with my family without worrying about missing calls. The website they built looks so professional — customers mention it all the time."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar avatar-purple">MS</div>
+                        <div>
+                            <div class="testimonial-name">Maria S.</div>
+                            <div class="testimonial-biz">Shafter Plumbing Pros</div>
                         </div>
-                        <h4 style="color:#fff; margin:5px 0;">Hourly Rate Inquiry</h4>
-                        <div class="waveform-mock">
-                            <div class="waveform-bars">
-                                <div class="wave-bar" style="height:30%;"></div>
-                                <div class="wave-bar" style="height:50%;"></div>
-                                <div class="wave-bar" style="height:70%;"></div>
-                                <div class="wave-bar" style="height:40%;"></div>
-                                <div class="wave-bar" style="height:85%;"></div>
-                                <div class="wave-bar" style="height:60%;"></div>
-                                <div class="wave-bar" style="height:40%;"></div>
-                                <div class="wave-bar" style="height:50%;"></div>
-                                <div class="wave-bar" style="height:70%;"></div>
-                                <div class="wave-bar" style="height:40%;"></div>
-                                <div class="wave-bar" style="height:85%;"></div>
-                                <div class="wave-bar" style="height:60%;"></div>
-                                <div class="wave-bar" style="height:40%;"></div>
-                                <div class="wave-bar" style="height:50%;"></div>
-                                <div class="wave-bar" style="height:20%;"></div>
-                            </div>
-                        </div>
-                        <div style="display:flex; align-items:center; gap:15px;">
-                            <button class="play-btn" onclick="toggleAudio('quote')">▶</button>
-                            <span style="font-size:0.85rem; color:#888;">AI explains pricing & handles objections.</span>
-                        </div>
-                        <audio id="audio-file-quote" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+                        <div class="testimonial-result-badge">+31 new leads</div>
                     </div>
+                </div>
 
-                    <div class="audio-card" id="audio-followup">
-                        <div class="audio-header">
-                            <span class="audio-tag">The Follow-up</span>
-                            <span style="font-size:0.8rem; color:#666;">0:20</span>
+                <div class="testimonial-card reveal" id="test-3">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Setup was easy. The AI knows my services and pricing. Customers think it's a real receptionist. The website went live in 3 days and we got our first online lead that same week."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar avatar-green">JR</div>
+                        <div>
+                            <div class="testimonial-name">James R.</div>
+                            <div class="testimonial-biz">Kern County Electric</div>
                         </div>
-                        <h4 style="color:#fff; margin:5px 0;">60s Missed Call Back</h4>
-                        <div class="waveform-mock">
-                            <div class="waveform-bars">
-                                <div class="wave-bar" style="height:60%;"></div>
-                                <div class="wave-bar" style="height:30%;"></div>
-                                <div class="wave-bar" style="height:80%;"></div>
-                                <div class="wave-bar" style="height:45%;"></div>
-                                <div class="wave-bar" style="height:70%;"></div>
-                                <div class="wave-bar" style="height:20%;"></div>
-                                <div class="wave-bar" style="height:90%;"></div>
-                                <div class="wave-bar" style="height:55%;"></div>
-                                <div class="wave-bar" style="height:40%;"></div>
-                                <div class="wave-bar" style="height:60%;"></div>
-                                <div class="wave-bar" style="height:30%;"></div>
-                                <div class="wave-bar" style="height:80%;"></div>
-                                <div class="wave-bar" style="height:45%;"></div>
-                                <div class="wave-bar" style="height:70%;"></div>
-                                <div class="wave-bar" style="height:20%;"></div>
-                            </div>
-                        </div>
-                        <div style="display:flex; align-items:center; gap:15px;">
-                            <button class="play-btn" onclick="toggleAudio('followup')">▶</button>
-                            <span style="font-size:0.85rem; color:#888;">AI calls back instantly to win the job.</span>
-                        </div>
-                        <audio id="audio-file-followup" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+                        <div class="testimonial-result-badge">Live in 3 days</div>
                     </div>
                 </div>
             </div>
-                <div class="service-card">
-                    <div class="service-icon">⚙️</div>
-                    <h3>Automated Pipelines</h3>
-                    <p>Instant SMS speed-to-lead and CRM synchronization to eliminate manual data entry.</p>
-                </div>
-            </div>
 
-            <h2 style="text-align:center; margin-top:80px; margin-bottom:40px;">The AI Difference</h2>
-            <div
-                style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:30px; max-width:1000px; margin:0 auto;">
-                <div
-                    style="background:rgba(255,68,68,0.05); border:1px solid #ff4444; border-radius:12px; padding:30px;">
-                    <h3 style="color:#ff4444; margin-bottom:20px;">❌ WITHOUT CO-AI</h3>
-                    <ul style="color:#888; line-height:2; list-style:none; padding:0;">
-                        <li>📵 Missed calls = Lost Revenue</li>
-                        <li>😤 Delayed follow-ups kill deals</li>
-                        <li>💸 Customers call your competitors</li>
-                        <li>📉 Unmeasurable Marketing ROI</li>
+            <!-- Star rating summary -->
+            <div class="rating-summary reveal">
+                <div class="rating-big">5.0</div>
+                <div class="rating-stars-big">★★★★★</div>
+                <div class="rating-label">Average rating from Kern County clients</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== BEFORE / AFTER COMPARISON ======== -->
+    <section class="section compare-section" id="compare">
+        <div class="container">
+            <div class="section-eyebrow">THE DIFFERENCE</div>
+            <h2 class="section-title centered">Before vs. After<br>Working With <span class="gradient-text">CO-AI</span></h2>
+
+            <div class="compare-grid">
+                <div class="compare-card compare-before reveal">
+                    <div class="compare-header">
+                        <span class="compare-badge badge-before">WITHOUT CO-AI</span>
+                    </div>
+                    <ul class="compare-list">
+                        <li><span class="compare-icon bad">✕</span> Missed calls = lost jobs</li>
+                        <li><span class="compare-icon bad">✕</span> Generic, slow-loading website</li>
+                        <li><span class="compare-icon bad">✕</span> No follow-up system</li>
+                        <li><span class="compare-icon bad">✕</span> Competitors get your leads</li>
+                        <li><span class="compare-icon bad">✕</span> You're always on your phone</li>
+                        <li><span class="compare-icon bad">✕</span> Can't track what's working</li>
                     </ul>
                 </div>
 
-                <div
-                    style="background:var(--crimson-dim); border:1px solid var(--crimson-core); border-radius:12px; padding:30px;">
-                    <h3 style="color: var(--crimson-core); margin-bottom:20px;">✅ WITH CO-AI</h3>
-                    <ul style="color:#888; line-height:2; list-style:none; padding:0;">
-                        <li>📞 Calls answered in &lt; 1 second</li>
-                        <li>📅 AI books directly to your calendar</li>
-                        <li>💰 60% higher booking rates</li>
-                        <li>🏖️ Focus on work, not the phones</li>
+                <div class="compare-vs">VS</div>
+
+                <div class="compare-card compare-after reveal">
+                    <div class="compare-header">
+                        <span class="compare-badge badge-after">WITH CO-AI</span>
+                    </div>
+                    <ul class="compare-list">
+                        <li><span class="compare-icon good">✓</span> Every call answered in &lt;1 second</li>
+                        <li><span class="compare-icon good">✓</span> Professional site that converts</li>
+                        <li><span class="compare-icon good">✓</span> Instant SMS & email follow-ups</li>
+                        <li><span class="compare-icon good">✓</span> You book the jobs they missed</li>
+                        <li><span class="compare-icon good">✓</span> Focus on work, not the phone</li>
+                        <li><span class="compare-icon good">✓</span> Crystal-clear ROI dashboard</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TESTIMONIALS -->
-    <section class="section" style="background:rgba(0,0,0,0.2);">
+    <!-- ======== SERVICE AREAS ======== -->
+    <section class="section areas-section" id="areas">
         <div class="container">
-            <h2 style="text-align:center; margin-bottom:40px;">Trusted by Kern County Trade Owners</h2>
+            <div class="section-eyebrow">WE SERVE</div>
+            <h2 class="section-title centered">Proudly Serving<br><span class="gradient-text">All of Kern County</span></h2>
 
-            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:30px;">
-                <div class="glass-card">
-                    <p style="color:#fff; font-size:1.1rem; margin-bottom:20px; font-style:italic;">"I was missing 4-5
-                        calls a day during summer. The AI captured 12 jobs in the first month. Paid for itself 3x over.
-                        You can't afford to miss calls when it's 110 degrees in Oildale."
-                    </p>
-                    <p style="color: var(--crimson-core); font-weight:bold; margin:0;">David T.</p>
-                    <p style="color:#666; font-size:14px;">Delano HVAC Solutions</p>
+            <div class="areas-grid">
+                <div class="area-card glass-card-new reveal">
+                    <div class="area-icon">🏙️</div>
+                    <h3 class="area-name">Bakersfield</h3>
+                    <p class="area-desc">Our home base. Full-service web, AI, and automation for all Bakersfield trades and service businesses.</p>
                 </div>
-
-                <div class="glass-card">
-                    <p style="color:#fff; font-size:1.1rem; margin-bottom:20px; font-style:italic;">"Best investment
-                        I've made. I'm actually able to eat dinner with my family without worrying about the phone."</p>
-                    <p style="color: var(--crimson-core); font-weight:bold; margin:0;">Maria S.</p>
-                    <p style="color:#666; font-size:14px;">Shafter Plumbing Pros</p>
+                <div class="area-card glass-card-new reveal">
+                    <div class="area-icon">🌡️</div>
+                    <h3 class="area-name">Oildale & Rosedale</h3>
+                    <p class="area-desc">We know the 110° July days. AI dispatch keeps you working while we handle the phones.</p>
                 </div>
-
-                <div class="glass-card">
-                    <p style="color:#fff; font-size:1.1rem; margin-bottom:20px; font-style:italic;">"Setup was easy. The
-                        AI knows my services and prices. Customers think it's a real receptionist. Game changer."</p>
-                    <p style="color: var(--crimson-core); font-weight:bold; margin:0;">James R.</p>
-                    <p style="color:#666; font-size:14px;">Kern County Electric</p>
+                <div class="area-card glass-card-new reveal">
+                    <div class="area-icon">🌾</div>
+                    <h3 class="area-name">Shafter & Wasco</h3>
+                    <p class="area-desc">Local lead capture funnels optimized for expanding service areas outside Bakersfield.</p>
+                </div>
+                <div class="area-card glass-card-new reveal">
+                    <div class="area-icon">🌎</div>
+                    <h3 class="area-name">Delano</h3>
+                    <p class="area-desc">Bilingual AI voice agents and full CRM routing. English & Spanish, always ready.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVICE LOCATIONS (GEO/AEO OPTIMIZATION) -->
-    <section class="section">
+    <!-- ======== GUARANTEE ======== -->
+    <section class="section guarantee-section" id="guarantee">
         <div class="container">
-            <h2 style="text-align:center; margin-bottom:40px;">Kern County Service Areas</h2>
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px;">
-                <div class="glass-card" style="padding: 25px; position:relative; overflow:hidden;">
-                    <div class="hud-scanner"></div>
-                    <h3 style="color:#fff; font-size:1.2rem; margin-bottom:10px;">Bakersfield</h3>
-                    <p style="font-size:0.9rem; margin-bottom:0;">Core systems, web design, and automation for primary
-                        Bakersfield trades.</p>
-                </div>
-                <div class="glass-card" style="padding: 25px; position:relative; overflow:hidden;">
-                    <div class="hud-scanner"></div>
-                    <h3 style="color:#fff; font-size:1.2rem; margin-bottom:10px;">Oildale & Rosedale</h3>
-                    <p style="font-size:0.9rem; margin-bottom:0;">We know those 110-degree July days when an HVAC guy is in an attic and can't answer his phone. AI dispatch that keeps you working while we handle the heat.</p>
-                </div>
-                <div class="glass-card" style="padding: 25px; position:relative; overflow:hidden;">
-                    <div class="hud-scanner"></div>
-                    <h3 style="color:#fff; font-size:1.2rem; margin-bottom:10px;">Shafter & Wasco</h3>
-                    <p style="font-size:0.9rem; margin-bottom:0;">Local lead capture funnels optimized for expanding
-                        service areas.</p>
-                </div>
-                <div class="glass-card" style="padding: 25px; position:relative; overflow:hidden;">
-                    <div class="hud-scanner"></div>
-                    <h3 style="color:#fff; font-size:1.2rem; margin-bottom:10px;">Delano</h3>
-                    <p style="font-size:0.9rem; margin-bottom:0;">Bilingual AI voice agents and comprehensive CRM
-                        routing.</p>
+            <div class="guarantee-card reveal">
+                <div class="guarantee-icon">🛡️</div>
+                <div class="guarantee-content">
+                    <div class="section-eyebrow" style="text-align:left; margin-bottom:10px;">OUR PROMISE</div>
+                    <h2 class="section-title" style="border:none; padding:0; margin-bottom:15px;">The <span class="gradient-text">CO-AI Guarantee</span></h2>
+                    <p class="guarantee-text">If our AI systems don't find at least <strong>$5,000/month in recoverable revenue</strong> within your first 30 days, your next 6 months of service are completely free.</p>
+                    <p class="guarantee-subtext">We stand behind our work because we've seen what happens when the right systems are in place. Your success is our business model.</p>
+                    <div class="guarantee-cta-row">
+                        <a href="intake.html" class="btn btn-primary btn-large" id="guarantee-cta">Claim My Free Audit</a>
+                        <div class="guarantee-badges">
+                            <span class="g-badge">🔒 No Contracts</span>
+                            <span class="g-badge">⚡ 48hr Delivery</span>
+                            <span class="g-badge">💬 Local Support</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- GUARANTEE SECTION -->
-    <section class="section" style="background:linear-gradient(135deg, var(--crimson-dim), transparent);">
-        <div class="container" style="text-align:center;">
-            <div style="max-width:700px; margin:0 auto;">
-                <div style="font-size:64px; margin-bottom:20px;">🛡️</div>
-                <h2 style="margin-bottom:20px;">The Cipher Guarantee</h2>
-                <p style="font-size:1.25rem; color:#fff; margin-bottom:30px;">
-                    If our AI doesn't find at least <span
-                        style="color: var(--crimson-core); font-weight:bold;">$5,000/month</span> in leaked revenue 
-                    within your first 30 days, your next 6 months of service are completely free.
-                </p>
-                <p style="color:#888; font-size:0.9rem; margin-bottom:30px;">
-                    That's not confidence. That's mathematical certainty.
-                </p>
-                <a href="intake.html" class="btn btn-primary btn-large pulse-btn">Claim My Free Audit</a>
+    <!-- ======== FINAL CTA ======== -->
+    <section class="section final-cta-section" id="final-cta">
+        <div class="container">
+            <div class="final-cta-inner reveal">
+                <div class="final-cta-orb"></div>
+                <h2 class="final-cta-title">Ready to Finally Have a Website<br>That <span class="gradient-text">Does the Work for You?</span></h2>
+                <p class="final-cta-desc">Let's talk for 20 minutes. No pressure, no pitch — just an honest look at what's possible for your business.</p>
+                <div class="final-cta-buttons">
+                    <a href="intake.html" class="btn-hero-primary pulse-btn" id="final-cta-form">
+                        Get My Free Website & Systems Audit
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="tel:6616109198" class="btn-hero-secondary" id="final-cta-phone">📞 Call (661) 610-9198</a>
+                </div>
+                <p class="final-cta-note">Response guaranteed within 2 hours. Monday–Friday, 8am–6pm PST</p>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container" style="text-align:center;">
-            <p style="font-weight:700; color: var(--crimson-core); margin-bottom:15px;">CHAOTICALLY ORGANIZED AI</p>
-            <p style="color:#888; line-height:1.8; margin-bottom:20px;">
-                📍 1712 19th St #216, Bakersfield, CA 93301<br>
-                📞 (661) 610-9198<br>
-                ✉️ chaoticallyorganizedai@gmail.com
-            </p>
-            <p style="font-size:0.9rem; color:#666;">
-                <a href="terms-of-service.html">Terms</a> |
-                <a href="privacy-policy.html">Privacy</a> |
-                <a href="contact.html">Contact</a>
-            </p>
-            <p style="margin-top:20px; font-size:0.8rem; color:#444;">
+    <!-- ======== FOOTER ======== -->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo" style="margin-bottom:15px; display:inline-flex;">
+                        <img src="logo.png" alt="Chaotically Organized AI" width="40" height="40" loading="lazy">
+                        <span class="logo-text" style="font-size:0.9rem;">CHAOTICALLY ORGANIZED AI</span>
+                    </a>
+                    <p class="footer-tagline">Your local AI-powered web studio in Bakersfield, CA.</p>
+                    <div class="footer-contact">
+                        <p>📍 1712 19th St #216, Bakersfield, CA 93301</p>
+                        <p>📞 <a href="tel:6616109198">(661) 610-9198</a></p>
+                        <p>✉️ <a href="mailto:chaoticallyorganizedai@gmail.com">chaoticallyorganizedai@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="footer-col-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Website Design</a></li>
+                        <li><a href="services.html#ai-phone">AI Phone Answering</a></li>
+                        <li><a href="services.html#automation">Business Automation</a></li>
+                        <li><a href="services.html#funnels">Lead Funnels</a></li>
+                        <li><a href="pricing.html">View Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="footer-col-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="portfolio.html">Our Work</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="intake.html">Free Audit</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-col">
+                    <h4 class="footer-col-title">Get Started</h4>
+                    <p style="color:#666; font-size:0.9rem; margin-bottom:15px;">Free 20-minute consultation. No commitment.</p>
+                    <a href="intake.html" class="btn btn-primary" style="display:inline-block; font-size:0.85rem; padding:12px 24px;" id="footer-cta">Start Free Audit</a>
+                    <div class="footer-trust-badges" style="margin-top:20px;">
+                        <span class="footer-badge">🔒 SSL Secure</span>
+                        <span class="footer-badge">🚫 No Spam</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p style="color:#444; font-size:0.8rem;">© <span id="year"></span> Chaotically Organized AI. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="terms-of-service.html">Terms</a>
+                    <span>|</span>
+                    <a href="privacy-policy.html">Privacy</a>
+                    <span>|</span>
+                    <a href="sitemap.xml">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Phone Button -->
+    <a href="tel:6616109198" class="floating-call" aria-label="Call us now" id="floating-phone">📞</a>
+
+    <!-- Hidden div for Google Translate -->
+    <div id="google_translate_element" style="display:none;"></div>
+
+    <script src="script.js"></script>
+    <script>
+        // Particle background
+        (function() {
+            const container = document.getElementById('particles');
+            if (!container) return;
+            for (let i = 0; i < 40; i++) {
+                const p = document.createElement('div');
+                p.className = 'particle';
+                p.style.cssText = `
+                    left: ${Math.random() * 100}%;
+                    top: ${Math.random() * 100}%;
+                    width: ${Math.random() * 3 + 1}px;
+                    height: ${Math.random() * 3 + 1}px;
+                    animation-delay: ${Math.random() * 8}s;
+                    animation-duration: ${Math.random() * 10 + 8}s;
+                `;
+                container.appendChild(p);
+            }
+        })();
+
+        // Scroll-triggered header shrink
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (header) {
+                header.classList.toggle('scrolled', window.scrollY > 60);
+            }
+        }, { passive: true });
+    </script>
+</body>
+</html>
