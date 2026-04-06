@@ -22,13 +22,13 @@
             right: 20px;
             width: 60px;
             height: 60px;
-            background: var(--crimson-core);
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 28px;
-            box-shadow: 0 4px 20px var(--crimson-glow);
+            box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
             z-index: 9999;
             text-decoration: none;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -36,7 +36,7 @@
 
         .floating-call:hover {
             transform: scale(1.1);
-            box-shadow: 0 6px 30px var(--crimson-glow);
+            box-shadow: 0 6px 30px rgba(108, 99, 255, 0.6);
         }
 
         @media (min-width: 769px) {
@@ -104,7 +104,7 @@
     <div id="intro-overlay">
         <canvas id="intro-canvas"></canvas>
         <div class="intro-content">
-            <img src="assets/images/intro-logo.png" alt="Chaotically Organized AI Logo" id="intro-logo">
+            <img src="logo.png" alt="Chaotically Organized AI Logo" id="intro-logo">
         </div>
     </div>
 
@@ -138,7 +138,7 @@
                     </button>
                 </div>
 
-                <a href="intake.html" class="btn btn-primary header-cta" id="nav-cta">Get Free Audit</a>
+                <a href="intake.html" class="btn btn-primary header-cta" id="nav-cta">Get Free Growth Audit</a>
             </nav>
 
             <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
@@ -157,19 +157,52 @@
             <p style="text-align: center; max-width: 800px; margin: 0 auto 50px auto; color:#888;">We don't sell
                 "marketing." We build systems that solve real problems for local brands. Here are the numbers.</p>
 
+            <h2 style="margin-bottom:30px;">Recent Works & Active Deployments</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px;">
+                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
+                    <h4 style="color:#fff;">Mr. Hustle</h4>
+                    <p style="color:#888; font-size:14px; margin-bottom:15px;">High-performance business portfolio.</p>
+                    <a href="https://mrhustle.netlify.app" target="_blank" class="accent-link">Visit Site →</a>
+                </div>
+                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
+                    <h4 style="color:#fff;">Bakersfield Cheesesteaks (Billy Cheesecake)</h4>
+                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Restaurant brand and online ordering experience.</p>
+                    <a href="https://bakersfieldcheesecake.com" target="_blank" class="accent-link">Visit Site →</a>
+                </div>
+                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
+                    <h4 style="color:#fff;">Homegrown Money</h4>
+                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Financial growth and brand education platform.</p>
+                    <a href="https://homegrowmoney.com" target="_blank" class="accent-link">Visit Site →</a>
+                </div>
+                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
+                    <h4 style="color:#fff;">Dirty Mind (DJ Site)</h4>
+                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Artist and event-forward promo website for a local DJ brand.</p>
+                    <a href="https://dirtymind-ten.vercel.app" target="_blank" class="accent-link">Visit Site →</a>
+                </div>
+                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
+                    <h4 style="color:#fff;">T&M Hauling</h4>
+                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Bakersfield father-son hauling company with local trust-first service positioning.</p>
+                    <a href="https://tandm2.vercel.app/" target="_blank" class="accent-link">Visit Site →</a>
+                </div>
+                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
+                    <h4 style="color:#fff;">Edwin Bord Consulting</h4>
+                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Professional consulting site.</p>
+                    <a href="https://edwinbordconsulting.com" target="_blank" class="accent-link">Visit Site →</a>
+                </div>
+            </div>
+
             <!-- DETAILED DEEP DIVES -->
-            <h2 style="margin-bottom:30px;">System Deep Dives</h2>
+            <h2 style="margin:60px 0 30px;">System Deep Dives</h2>
             <div
-                style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:30px; margin-bottom:80px;">
+                style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:30px; margin-bottom:20px;">
                 <div class="glass-card" style="padding:0; overflow:hidden; border-radius:12px;">
                     <div
                         style="height:200px; background:#1a1a1a; display:flex; align-items:center; justify-content:center; border-bottom:1px solid #333;">
                         <span style="font-size:4rem;">❄️</span>
                     </div>
                     <div style="padding:30px;">
-                        <h3 style="color:var(--crimson-core);">HVAC Website & Systems</h3>
-                        <p style="color:#888; margin-bottom:20px;">How we took a local HVAC team from 40% missed calls
-                            to a 24/7 automated booking machine with 0% missed lead rate.</p>
+                        <h3 style="color:var(--accent-blue);">HVAC Website & Systems</h3>
+                        <p style="color:#888; margin-bottom:20px;">How we took a local HVAC team from missed calls to a cleaner lead and booking system.</p>
                         <a href="case-studies/hvac-systems-bakersfield.html" class="btn btn-primary">Read Case Study</a>
                     </div>
                 </div>
@@ -180,9 +213,8 @@
                         <span style="font-size:4rem;">🍕</span>
                     </div>
                     <div style="padding:30px;">
-                        <h3 style="color:var(--crimson-core);">Restaurant Online Funnel</h3>
-                        <p style="color:#888; margin-bottom:20px;">Saving $1,200/mo in 3rd-party fees while doubling
-                            direct web orders through a custom ordering system and SMS loyalty loop.</p>
+                        <h3 style="color:var(--accent-blue);">Restaurant Online Funnel</h3>
+                        <p style="color:#888; margin-bottom:20px;">Direct-order focus with conversion and retention improvements from a custom funnel setup.</p>
                         <a href="case-studies/restaurant-online-ordering-bakersfield.html" class="btn btn-primary">Read
                             Case Study</a>
                     </div>
@@ -194,50 +226,11 @@
                         <span style="font-size:4rem;">⚖️</span>
                     </div>
                     <div style="padding:30px;">
-                        <h3 style="color:var(--crimson-core);">Prof Services Automation</h3>
-                        <p style="color:#888; margin-bottom:20px;">Deleting 15 hours of manual admin work every week by
-                            automating intake, document collection, and scheduling for a local firm.</p>
+                        <h3 style="color:var(--accent-blue);">Prof Services Automation</h3>
+                        <p style="color:#888; margin-bottom:20px;">Operational cleanup by automating intake, follow-up, and scheduling for service teams.</p>
                         <a href="case-studies/professional-services-automation.html" class="btn btn-primary">Read Case
                             Study</a>
                     </div>
-                </div>
-            </div>
-
-            <!-- PREVIOUS WORK LOGOS/LINKS -->
-            <h2 style="margin-bottom:30px;">Recent Works & Active Deployments</h2>
-            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px;">
-                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
-                    <h4 style="color:#fff;">Mr. Hustle</h4>
-                    <p style="color:#888; font-size:14px; margin-bottom:15px;">High-performance business portfolio.</p>
-                    <a href="https://mrhustle.netlify.app" target="_blank" class="accent-link">Visit Site →</a>
-                </div>
-                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
-                    <h4 style="color:#fff;">Phil's Cheesesteaks</h4>
-                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Restaurant ordering and menu system.</p>
-                    <a href="https://phils-cheesesteaks-and-more.com" target="_blank" class="accent-link">Visit Site →</a>
-                </div>
-                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
-                    <h4 style="color:#fff;">Allstar Automotive</h4>
-                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Automotive service booking platform.</p>
-                    <a href="https://allstarautomotiverepair.com" target="_blank" class="accent-link">Visit Site →</a>
-                    <div class="portfolio-tag">Mirror: <a href="https://allstarautomotiverepair.netlify.app" target="_blank">allstarautomotiverepair.netlify.app</a></div>
-                </div>
-                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
-                    <h4 style="color:#fff;">Foster Son Mechanical</h4>
-                    <p style="color:#888; font-size:14px; margin-bottom:15px;">HVAC service and scheduling portal.</p>
-                    <a href="https://fostersonmechanical.com" target="_blank" class="accent-link">Visit Site →</a>
-                    <div class="portfolio-tag">Mirror: <a href="https://foster-son.netlify.app" target="_blank">foster-son.netlify.app</a></div>
-                </div>
-                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
-                    <h4 style="color:#fff;">Carolina Sewer & Drain</h4>
-                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Plumbing utility and lead gen site.</p>
-                    <a href="https://carolina-sewer-and-drain.com" target="_blank" class="accent-link">Visit Site →</a>
-                    <div class="portfolio-tag">Mirror: <a href="https://carolinaseweranddrain.netlify.app" target="_blank">carolinaseweranddrain.netlify.app</a></div>
-                </div>
-                <div class="glass-card compact" style="background:rgba(255,255,255,0.03); border:1px solid #333; padding:25px; border-radius:8px;">
-                    <h4 style="color:#fff;">Edwin Ward Consulting</h4>
-                    <p style="color:#888; font-size:14px; margin-bottom:15px;">Professional consulting site.</p>
-                    <a href="https://edwinwardconsulting.com" target="_blank" class="accent-link">Visit Site →</a>
                 </div>
             </div>
         </div>
@@ -248,7 +241,7 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <p style="font-weight: 800; font-size: 1.2rem; color: #fff; margin-bottom: 10px;">CHAOTICALLY ORGANIZED AI</p>
-                <p class="footer-tagline">Making Kern County Businesses Unstoppable through AI & Automation.</p>
+                <p class="footer-tagline">Turn your chaos into code with practical growth systems built for Kern County businesses.</p>
                 <div class="footer-contact">
                     <p>📍 1712 19th St #216, Bakersfield, CA 93301</p>
                     <p>📞 <a href="tel:6616109198">(661) 610-9198</a></p>
@@ -277,7 +270,7 @@
             <div class="footer-cta-col">
                 <p class="footer-col-title">Get Started</p>
                 <p style="font-size: 0.85rem; color: var(--text-muted2); margin-bottom: 15px;">Free 20-minute consultation. No commitment.</p>
-                <a href="intake.html" class="btn btn-primary pulse-btn" style="width: 100%; text-align: center; border-radius: 8px;">Claim My Audit</a>
+                <a href="intake.html" class="btn btn-primary pulse-btn" style="width: 100%; text-align: center; border-radius: 8px;">Claim My Growth Audit</a>
             </div>
         </div>
 

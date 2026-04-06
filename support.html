@@ -43,13 +43,13 @@
             right: 20px;
             width: 60px;
             height: 60px;
-            background: var(--neon-core);
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 28px;
-            box-shadow: 0 4px 20px rgba(0, 255, 163, 0.4);
+            box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
             z-index: 9999;
             text-decoration: none;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -57,7 +57,7 @@
 
         .floating-call:hover {
             transform: scale(1.1);
-            box-shadow: 0 6px 30px rgba(0, 255, 163, 0.6);
+            box-shadow: 0 6px 30px rgba(108, 99, 255, 0.6);
         }
 
         @media (min-width: 769px) {
@@ -137,19 +137,19 @@
         }
 
         .support-channel a {
-            color: var(--neon-core);
+            color: var(--accent-blue);
             word-break: break-word;
         }
 
         .tier-support {
             margin-bottom: 15px;
             padding: 15px;
-            background: rgba(0, 255, 163, 0.03);
-            border-left: 2px solid var(--neon-core);
+            background: rgba(108, 99, 255, 0.05);
+            border-left: 2px solid var(--accent-blue);
         }
 
         .tier-support strong {
-            color: var(--neon-core);
+            color: var(--accent-blue);
         }
 
         .issue-item {
@@ -161,9 +161,9 @@
         }
 
         .issue-item h4 {
-            color: var(--neon-core);
+            color: var(--accent-blue);
             margin-bottom: 10px;
-            font-family: 'Orbitron', sans-serif;
+            font-family: inherit;
             font-size: 1rem;
         }
 
@@ -183,7 +183,7 @@
         }
 
         .support-expectation {
-            background: linear-gradient(90deg, rgba(0, 255, 163, 0.06), rgba(255, 255, 255, 0.01));
+            background: linear-gradient(90deg, rgba(108, 99, 255, 0.06), rgba(255, 255, 255, 0.01));
             border: 1px solid var(--glass-border);
             border-radius: 8px;
             padding: 30px;
@@ -222,8 +222,8 @@
 
         select:focus {
             outline: none;
-            border-color: var(--neon-core);
-            background: var(--neon-dim);
+            border-color: var(--accent-blue);
+            background: rgba(108, 99, 255, 0.05);
         }
     </style>
     <script type="application/ld+json">
@@ -288,7 +288,7 @@
     <div id="intro-overlay">
         <canvas id="intro-canvas"></canvas>
         <div class="intro-content">
-            <img src="assets/images/intro-logo.png" alt="Chaotically Organized AI Logo" id="intro-logo">
+            <img src="logo.png" alt="Chaotically Organized AI Logo" id="intro-logo">
         </div>
     </div>
 
@@ -322,7 +322,7 @@
                     </button>
                 </div>
 
-                <a href="intake.html" class="btn btn-primary header-cta" id="nav-cta">Get Free Audit</a>
+                <a href="intake.html" class="btn btn-primary header-cta" id="nav-cta">Get Free Growth Audit</a>
             </nav>
 
             <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
@@ -507,7 +507,7 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <p style="font-weight: 800; font-size: 1.2rem; color: #fff; margin-bottom: 10px;">CHAOTICALLY ORGANIZED AI</p>
-                <p class="footer-tagline">Making Kern County Businesses Unstoppable through AI & Automation.</p>
+                <p class="footer-tagline">Turn your chaos into code with practical growth systems built for Kern County businesses.</p>
                 <div class="footer-contact">
                     <p>📍 1712 19th St #216, Bakersfield, CA 93301</p>
                     <p>📞 <a href="tel:6616109198">(661) 610-9198</a></p>
@@ -536,7 +536,7 @@
             <div class="footer-cta-col">
                 <p class="footer-col-title">Get Started</p>
                 <p style="font-size: 0.85rem; color: var(--text-muted2); margin-bottom: 15px;">Free 20-minute consultation. No commitment.</p>
-                <a href="intake.html" class="btn btn-primary pulse-btn" style="width: 100%; text-align: center; border-radius: 8px;">Claim My Audit</a>
+                <a href="intake.html" class="btn btn-primary pulse-btn" style="width: 100%; text-align: center; border-radius: 8px;">Claim My Growth Audit</a>
             </div>
         </div>
 

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revenue Recovery Audit | Chaotically Organized AI</title>
-    <meta name="description" content="Take the Revenue Recovery Audit to identify exactly where your business is leaking money.">
+    <title>Growth Clarity Audit | Chaotically Organized AI</title>
+    <meta name="description" content="Start your Growth Clarity Audit to identify lead leaks, workflow friction, and fast opportunities to book more jobs.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home-styles.css">
     <link rel="stylesheet" href="intro.css">
@@ -36,7 +36,7 @@
     <div id="intro-overlay">
         <canvas id="intro-canvas"></canvas>
         <div class="intro-content">
-            <img src="assets/images/intro-logo.png" alt="Chaotically Organized AI Logo" id="intro-logo">
+            <img src="logo.png" alt="Chaotically Organized AI Logo" id="intro-logo">
         </div>
     </div>
 
@@ -70,7 +70,7 @@
                     </button>
                 </div>
 
-                <a href="intake.html" class="btn btn-primary header-cta" id="nav-cta">Get Free Audit</a>
+                <a href="intake.html" class="btn btn-primary header-cta" id="nav-cta">Get Free Growth Audit</a>
             </nav>
 
             <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
@@ -80,9 +80,10 @@
     <main class="intake-main" style="padding-top:140px;">
         <section class="form-hero" style="padding-bottom:20px;">
             <div class="container animate-up" style="text-align:center;">
-                <div class="hero-pill">⚡ Revenue Audit</div>
-                <h1 class="hero-h1">SYSTEM <span class="gradient-text">DIAGNOSTIC</span></h1>
-                <p class="hero-description" style="margin: 0 auto 30px; max-width: 700px;">Identify logical leaks. Plug the revenue holes. Scale with precision.</p>
+                <div class="hero-pill">⚡ Growth Clarity Audit</div>
+                <h1 class="hero-h1">YOUR BUSINESS <span class="gradient-text">SYSTEM SNAPSHOT</span></h1>
+                <p class="hero-description" style="margin: 0 auto 30px; max-width: 700px;">Fast, practical audit to map lead leaks, response gaps, and the next best moves to get more booked work.</p>
+                <p style="color: var(--text-muted2); font-size:0.9rem; margin-bottom:0;">No hard sales. No long forms. About 3 minutes to complete.</p>
             </div>
         </section>
 
@@ -99,48 +100,48 @@
                         <div class="indicator-dot"></div>
                     </div>
 
-                    <form id="diagnostic-form" name="revenue-audit" data-netlify="true" action="/thank-you.html">
+                    <form id="diagnostic-form" name="growth-clarity-audit" data-netlify="true" action="/thank-you.html">
                         <!-- Step 1: Size & Scale -->
                         <div class="form-step active" id="step-1">
-                            <h2>01. Size & Scale</h2>
-                            <p>How many service trucks are currently in your fleet?</p>
+                            <h2>01. Business Snapshot</h2>
+                            <p>How many active field staff members are handling jobs right now?</p>
                             <div class="form-group">
                                 <select id="truckCount" required>
-                                    <option value="" disabled selected>Select fleet size...</option>
-                                    <option value="1">1 Truck (Owner-Operator)</option>
-                                    <option value="2-5">2 - 5 Trucks</option>
-                                    <option value="6-10">6 - 10 Trucks</option>
-                                    <option value="11+">11+ Trucks</option>
+                                    <option value="" disabled selected>Select team size...</option>
+                                    <option value="1">1 Person (Owner-Operator)</option>
+                                    <option value="2-5">2 - 5 Team Members</option>
+                                    <option value="6-10">6 - 10 Team Members</option>
+                                    <option value="11+">11+ Team Members</option>
                                 </select>
                             </div>
                             <div class="form-nav">
-                                <button type="button" class="btn" onclick="nextStep(2)">Continue to Bottlenecks →</button>
+                                <button type="button" class="btn" onclick="nextStep(2)">Continue to Lead Gaps →</button>
                             </div>
                         </div>
 
                         <!-- Step 2: The Leak -->
                         <div class="form-step" id="step-2">
-                            <h2>02. The Leak</h2>
-                            <p>What is your biggest bottleneck in phone operations?</p>
+                            <h2>02. Lead Response Gaps</h2>
+                            <p>What currently causes the most lost opportunities?</p>
                             <div class="form-group">
                                 <select id="bottleneck" required>
-                                    <option value="" disabled selected>Identify the friction...</option>
-                                    <option value="after-hours">Missed After-Hours Calls</option>
-                                    <option value="overwhelmed">Receptionist is Overwhelmed</option>
-                                    <option value="booking">Low Close Rate on Leads</option>
-                                    <option value="language">Non-English Speaking Customers</option>
-                                    <option value="none">We have zero bottlenecks</option>
+                                    <option value="" disabled selected>Choose your biggest gap...</option>
+                                    <option value="after-hours">Missed after-hours calls or messages</option>
+                                    <option value="slow-followup">Slow follow-up to new leads</option>
+                                    <option value="booking">Low close rate from inbound leads</option>
+                                    <option value="manual-chaos">Manual admin and workflow chaos</option>
+                                    <option value="none">No major gap right now</option>
                                 </select>
                             </div>
                             <div class="form-nav">
                                 <button type="button" class="btn secondary" onclick="prevStep(1)">← Back</button>
-                                <button type="button" class="btn" onclick="nextStep(3)">Analysis of Revenue →</button>
+                                <button type="button" class="btn" onclick="nextStep(3)">Continue to Revenue Context →</button>
                             </div>
                         </div>
 
                         <!-- Step 3: Revenue Profile -->
                         <div class="form-step" id="step-3">
-                            <h2>03. Revenue Profile</h2>
+                            <h2>03. Revenue Context</h2>
                             <label>Average Job Value</label>
                             <input type="range" id="intakeJobValue" min="100" max="5000" step="50" value="750">
                             <p class="slider-display">$<span id="intakeJobValueVal">750</span></p>
@@ -154,14 +155,14 @@
                             </select>
                             <div class="form-nav">
                                 <button type="button" class="btn secondary" onclick="prevStep(2)">← Back</button>
-                                <button type="button" class="btn" onclick="nextStep(4)">Final Verification →</button>
+                                <button type="button" class="btn" onclick="nextStep(4)">Continue to Contact Info →</button>
                             </div>
                         </div>
 
                         <!-- Step 4: Contact -->
                         <div class="form-step" id="step-4">
-                            <h2>04. Verification</h2>
-                            <p>Enter your details to receive your customized Revenue Recovery report.</p>
+                            <h2>04. Contact Details</h2>
+                            <p>Share your details and we will send your custom Growth Clarity recommendations.</p>
                             <div class="form-group">
                                 <input type="text" placeholder="Full Name" required>
                             </div>
@@ -173,7 +174,7 @@
                             </div>
                             <div class="form-nav">
                                 <button type="button" class="btn secondary" onclick="prevStep(3)">← Back</button>
-                                <button type="submit" class="btn">Book My Revenue Audit</button>
+                                <button type="submit" class="btn">Send My Growth Audit</button>
                             </div>
                         </div>
                     </form>
@@ -187,7 +188,7 @@
         <div class="container footer-grid">
             <div class="footer-brand">
                 <p style="font-weight: 800; font-size: 1.2rem; color: #fff; margin-bottom: 10px;">CHAOTICALLY ORGANIZED AI</p>
-                <p class="footer-tagline">Making Kern County Businesses Unstoppable through AI & Automation.</p>
+                <p class="footer-tagline">Turn your chaos into code with practical systems built for Kern County businesses.</p>
                 <div class="footer-contact">
                     <p>📍 1712 19th St #216, Bakersfield, CA 93301</p>
                     <p>📞 <a href="tel:6616109198">(661) 610-9198</a></p>
@@ -216,7 +217,7 @@
             <div class="footer-cta-col">
                 <p class="footer-col-title">Get Started</p>
                 <p style="font-size: 0.85rem; color: var(--text-muted2); margin-bottom: 15px;">Free 20-minute consultation. No commitment.</p>
-                <a href="intake.html" class="btn btn-primary pulse-btn" style="width: 100%; text-align: center; border-radius: 8px;">Claim My Audit</a>
+                <a href="intake.html" class="btn btn-primary pulse-btn" style="width: 100%; text-align: center; border-radius: 8px;">Claim My Growth Audit</a>
             </div>
         </div>
 
