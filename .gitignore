@@ -1,2 +1,5 @@
 # Local Netlify folder
 .netlify
+
+# JAX landing mini-site (was a broken submodule — never commit nested deps)
+jax landing page/node_modules/
